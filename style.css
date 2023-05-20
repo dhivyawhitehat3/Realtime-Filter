@@ -1,0 +1,32 @@
+  h3
+  {
+    font-size: 25px !important;
+    letter-spacing: 5px;
+    color:blue
+  }
+  canvas {
+    border:2px dashed black;
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  body{
+    background-color: rgb(243, 154, 239);
+  }
+  @keyframes glow {
+    from {box-shadow: 1px 1px 60px yellow;
+    border-radius: 0%;
+    }
+    to {box-shadow: 1px 1px 60px red;
+      border-radius: 50%;}
+  }
+  .footer{
+    position:fixed;
+    bottom:0;
+    background-color: darkgrey;
+    color:black
+  }
+
+
+
+  
